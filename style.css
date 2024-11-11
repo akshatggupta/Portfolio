@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 50vh;
+}
+
+img {
+    width: 100%;
+    height: -100%;
+    object-fit: cover;
+}
+
+
+
+
+.nm-content-header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 3%;
+    
+}
+
+.svg-nfLogo {
+    fill: #e50914;
+    display: inline-block;
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn {
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+
+/* style.css */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.gradientbox {
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 1100px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 160px;
+    margin-top: 40px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.gradientbox strong {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+.gradientbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.header {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-left: -800px;
+    margin-top: 45px;
+    
+}
+.abc {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.abc:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.socials {
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    padding-left: 40px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    line-height: 34px;
+    margin-left: -800px;
+    margin-top: 45px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+
+
+.socials strong {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.socials:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.footer {
+    background-color: #000;
+    color: #808080;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #e50914;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
